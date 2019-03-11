@@ -29,7 +29,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
             PlaySpeech("Hi, I’m Tracey, welcome to the Novartis booth. Please click around on my screen and then speak to my smart human friends in the booth.");
             break;
         case "Home":
-            writeCookie("NavigationState", true, 30);
+            //writeCookie("NavigationState", true, 30);
            location.href = "../../maincontents.htm";
            break;
         case "Menu":
@@ -109,7 +109,7 @@ function ShowPopup(){
 $(document).ready(function(){
 
     //$('.navigation').hide();
-    $('.get-started').click(function(){
+    /*$('.get-started').click(function(){
         $('.welcome-text, .get-started, footer').hide();
         $('.navigation').show();
         
@@ -122,7 +122,7 @@ $(document).ready(function(){
         $('.navigation').hide();
         $('.welcome-text, .get-started, footer').show();
         writeCookie("NavigationState", false, 30);
-    });
+    });*/
     
 
     $('a.btn-ok, #dialog-overlay, #dialog-box').click(function () {
