@@ -257,7 +257,7 @@ function SendEmail()
         data: { 
           
            'email':tempEmail,
-           'apID':'NextGen'
+           'apID':'Reinhausen'
         }
       }).done(function(response) {
         console.log('saved: ' + response); 
