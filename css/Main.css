@@ -68,15 +68,17 @@ footer {
 	/*border-radius: 10px;*/
 	background-color: #0d68a5;
 	text-align: center;
-	width: 320px;
-    margin: 0 30px 100px 30px;
+	width: 340px;
+	    height: 380px;
+    margin: 0 15px 100px 15px;
 }
 .navigation-icon{
 	margin-top: 30px;
-	max-height: 190px;
+	max-height: 260px;
 }
 .navigation-text{
 	font-weight: bold;
+	font-size: 50px;
 }
 
 a.button {
