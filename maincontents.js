@@ -35,9 +35,9 @@ function FC_ContentsCall(strContentsName, strLanguage)
         case "Menu":
            location.href = "../../main.htm"; 
             break;
-        case "MatchGame":
+        case "Dirndl":
             //PlaySpeech(speak[0]);
-            location.href = "Contents/MatchGame/index.html";
+            location.href = "Contents/Dirndl/index.html";
             break;
         case "Selfie":
             //PlaySpeech(speak[6]);
