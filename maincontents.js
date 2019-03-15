@@ -57,7 +57,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
             break;
         
         case "Avatar":
-            ssPlaySpeech(speak[7]);
+            PlaySpeech(speak[7]);
             location.href = "Contents/RobotAvatar/index.htm";
             break;
         case "Dance":
