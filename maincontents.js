@@ -8,9 +8,9 @@
         jokes[6]="Why did the phone wear glasses? Because it lost all of its contacts. ";
 
         var speak = new Array( );
-        speak[0] = "Novartis is seeing opportunity in ophthalmology ";
-        speak[1] = "Novartis is committed to finding the right solution for you.";
-        speak[2] = "Novartis has pioneered treatments for many retinal diseases.";
+        speak[0] = "don’t i look pretty?";
+        speak[1] = "spin the wheel and win a great prize";
+        speak[2] = "watch a video about Reinhausen";
         speak[3] = "Read a welcome message from our dean.";
         speak[4] = "Find out what classes you need for your major.";
         speak[5] = "";
@@ -36,19 +36,19 @@ function FC_ContentsCall(strContentsName, strLanguage)
            location.href = "../../main.htm"; 
             break;
         case "Dirndl":
-            //PlaySpeech(speak[0]);
+            PlaySpeech(speak[0]);
             location.href = "Contents/Dirndl/index.html";
             break;
         case "Selfie":
-            //PlaySpeech(speak[6]);
+            PlaySpeech(speak[6]);
             location.href = "Contents/Selfie/index.html";
             break;
         case "Videos":
-            //PlaySpeech(speak[2]);
+            PlaySpeech(speak[2]);
             location.href = "Contents/Videos/index.html";
             break;
         case "PrizeWheel":
-            //PlaySpeech(speak[1]);
+            PlaySpeech(speak[1]);
             location.href = "Contents/PrizeWheel/index.html";
             break;
         case "Dancer":
@@ -57,11 +57,11 @@ function FC_ContentsCall(strContentsName, strLanguage)
             break;
         
         case "Avatar":
-            //ssPlaySpeech(speak[7]);
+            ssPlaySpeech(speak[7]);
             location.href = "Contents/RobotAvatar/index.htm";
             break;
         case "Dance":
-            //PlaySpeech(speak[8]);
+            PlaySpeech(speak[8]);
             location.href = "Contents/Dance/index.html";
             break;
         case "Config":
@@ -139,25 +139,25 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Welcome to NextGen, scan your badge to begin");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("Welcome to the Reinhausen booth");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Come see me and I will take your picture");
+        window.external.PlaySpeech("Are you coming to our biergarten wednesday?");
         
     }
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Hi, Thanks for coming");
+            window.external.PlaySpeech("Come spin my wheel and win a prize");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-       window.external.PlaySpeech("Go to my other robot friends to experience NextGen mobile.");
+       window.external.PlaySpeech("");
         
     }
     if(btn_info[4] == '1'){
