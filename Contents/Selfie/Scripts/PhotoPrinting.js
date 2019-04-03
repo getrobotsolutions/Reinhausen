@@ -224,8 +224,8 @@ function SendEmail()
     var addr = message;
     var tempEmail=message;
     //var addr = "paul@robotaisolutions.com";
-    var subject = "Nice to see you at the NextGen Healthcare’s booth!";
-    var body = "Thank you for stopping by NextGen Healthcare’s booth, #2701 at HIMSS19. As NextGen continues to empower the transformation of ambulatory care we look forward to sharing more of our innovative, agnostic solutions and services with you. Please find us on the web at www.nextgen.com or on social media. https://twitter.com/nextgen #BelieveinBetter https://www.facebook.com/NextGenHealthcare https://www.linkedin.com/company/nextgen-healthcare-information-systems/ https://www.instagram.com/nextgenhealthcare/";
+    var subject = "Nice to see you at the Reinhausen booth!";
+    var body = "Thank you for stopping by the Reinhausen booth and visiting our Biergarten! Attached is your photo from the robot.";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";
