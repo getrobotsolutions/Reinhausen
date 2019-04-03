@@ -40,7 +40,7 @@ function JSMain()
 function GoHome()
 {
     //if(flagPictureAvatar == "true")   DeleteRobotFace();  //사진 아바타 삭제
-    location.href = "../../main.htm";
+    location.href = "../../maincontents.htm";
 }
 function JSUnload() 
 {

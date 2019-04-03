@@ -30,7 +30,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
             break;
         case "Home":
             //writeCookie("NavigationState", true, 30);
-           location.href = "../../ie.html";
+           location.href = "../../maincontents.htm";
            break;
         case "Menu":
            location.href = "../../main.htm"; 
