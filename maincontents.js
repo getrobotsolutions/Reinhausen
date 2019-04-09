@@ -10,7 +10,7 @@
         var speak = new Array( );
         speak[0] = "don’t i look pretty?";
         speak[1] = "spin the wheel and win a great prize";
-        speak[2] = "watch a video about Reinhausen";
+        speak[2] = "watch a video about RINE HOUSEN";
         speak[3] = "Read a welcome message from our dean.";
         speak[4] = "Find out what classes you need for your major.";
         speak[5] = "";
@@ -139,7 +139,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Welcome to the Reinhausen booth");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("Welcome to the RINE HOUSEN booth");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
